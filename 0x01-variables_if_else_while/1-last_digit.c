@@ -1,4 +1,4 @@
-#include <stdlib.h>
+nclude <stdlib.h>
 
 #include <time.h>
 
@@ -16,7 +16,7 @@
  *
  * * Return: 0
  *
- * */
+ */
 
 int main(void)
 
