@@ -16,7 +16,7 @@ nclude <stdlib.h>
  *
  * * Return: 0
  *
- */
+ **/
 
 int main(void)
 
