@@ -1,3 +1,5 @@
+// C program to print
+// first n Fibonacci numbers
 #include <stdio.h>
  
 // Function to print
@@ -6,7 +8,7 @@ void printFibonacciNumbers(int n)
 {
     int f1 = 0, f2 = 1, i;
  
-    if (n < 98)
+    if (n < 1)
         return;
     printf("%d ", f1);
     for (i = 1; i < n; i++) {
@@ -14,6 +16,12 @@ void printFibonacciNumbers(int n)
         int next = f1 + f2;
         f1 = f2;
         f2 = next;
+    }
+}
+ 
+// Driver Code
+int main()
 {
-     return 0;
+    printFibonacciNumbers(7);
+    return 0;
 }
