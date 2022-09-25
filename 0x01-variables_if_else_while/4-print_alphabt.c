@@ -1,41 +1,23 @@
 #include <stdio.h>
 
 /**
- *
- *  * main - print if the number is postive, zero, or negative
- *
- *   *
- *
- *    * Description: using the main function
- *
- *     * this program prints "Programming is positive, zero, or negative
- *
- *      * Return: 0
- *
- *       */
+ *main - print lowercase alpha a-z but remove 'q' and 'e'
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
-
 {
+	char alpha = 'a';
 
-	char ch;
-
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-
+	while (alpha <= 'z')
 	{
-
-		if (ch != 'e' && ch != 'q')
-
+		if ((alpha != 'q') && (alpha != 'e'))
 		{
-
-				putchar(ch);
-
+			putchar(alpha);
 		}
-
+		alpha++;
 	}
-
 	putchar('\n');
 
 	return (0);
-
 }
